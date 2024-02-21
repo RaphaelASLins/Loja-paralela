@@ -1,0 +1,55 @@
+*{
+    margin: 300;
+    padding:300;
+    box-sizing: border-box;
+    border: 8px solid rgba(32, 29, 17, 0.959);
+    
+}
+.caixa{ 
+    background-color: rgba(243, 190, 15, 0.959);
+    width: 1500px;
+    height:1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 8px solid rgba(240, 11, 11, 0.959);
+    @media (max-width: 600px){
+        background-color: rgba(224, 224, 221, 0.959);
+        width: 10%;
+        height:10%;
+
+    }
+}    
+
+.caixa-botao {
+    display: inline-flex;
+    width: 60em;
+    background-color:rgba(224, 224, 221, 0.959);
+    align-items: center;
+    @media (max-width: 600px){
+        background-color: rgba(224, 224, 221, 0.959);
+        width: 10%;
+        height:10%;
+    }
+}
+
+
+.FotoPerfil {
+    width: 10%;
+    border: 10px solid rgba(32, 29, 17, 0.959);
+    border-radius: 100%;
+}
+.Lista {
+    display: flex;
+    flex-direction: row;
+    gap: 9em;
+    list-style: none;
+    font-size: 2rem;
+    color: rgba(32, 29, 17, 0.959);
+    @media (max-width: 600px){
+        background-color: rgba(224, 224, 221, 0.959);
+        width: 10%;
+        height:10%;
+    }
+}
